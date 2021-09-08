@@ -1,7 +1,5 @@
-def print_hi(name):
-    print(f'{name}')
-
+import Funciones as fs
 
 if __name__ == '__main__':
-    print_hi('Luko')
-    print_hi('Noe')
+    fs.print_hi('Luko')
+    fs.print_hi('Noe')
