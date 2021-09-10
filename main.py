@@ -12,4 +12,8 @@ if __name__ == '__main__':
     posteriores = data_index_date.loc['2008-05-15':'2020-03-06']
     print(posteriores.tail().iloc[2:5])
     separador()
-    posteriores
+    print(len(posteriores.loc[:'2011-08-21']))
+    separador()
+    ruedas_mayores = data_index_date.loc['2011-08-20':'2008-05-15']
+    ruedas_mayores = ruedas_mayores.loc[ruedas_mayores['close']>ruedas_mayores['open']]
+    print(len(ruedas_mayores))
