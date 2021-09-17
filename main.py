@@ -1,3 +1,4 @@
+import Funciones as fs
 import pandas as pd
 
 def separador():
